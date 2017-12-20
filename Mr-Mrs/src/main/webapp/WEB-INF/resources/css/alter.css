@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+
+
+/*unvisited link*/
+.user a:link 
+{
+    color: gold;
+}
+
+/* visited link */
+.user a:visited 
+{
+    color:white ;
+}
+
+/* mouse over link */
+.user a:hover
+ {
+    color: hotpink;
+}
+
+/* selected link */
+.user a:active 
+{
+    color: ;
+}
+.user 
+{
+   position: absolute;
+    top: 8px;
+    right: 16px;
+	font-size:20px;
+	float:top-right;
+	font-family:Aguafina Script;
+}

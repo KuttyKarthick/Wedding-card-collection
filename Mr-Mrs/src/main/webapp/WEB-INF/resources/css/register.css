@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+input[type=text],input[type=password]
+{
+width:100%;
+padding:12px 20px;
+margin: 8px 0px;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing:border-box;
+}
+/* set a style for button*/
+button
+{
+background-color:green;
+color:white;
+padding:14px 20px;
+margin:8px 0px;
+border:none;
+cursor:pointer;
+width:100%;
+}
+/* extra styles for cancel button*/
+.cancel
+{
+	padding:14px 20px;
+	background-color:red;
+}
+/*float cancel and signup buttons equal width and side*/
+.cancel,.signup
+{
+	float:left;
+	width:50%;
+}
+/* add padding to cointainer */
+.container
+{
+padding:16px;
+}
+/*clear floats*/
+.clearfix::after
+{
+content:"";
+clear:both;
+display:table;
+}
+/*change styles for cancel and signupbutton on extrasmall screens*/
+@media screen and (max-width:300px)
+{
+	.cancel,.signup
+	{
+	width:100%;
+	}
+}
